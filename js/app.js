@@ -29,7 +29,7 @@ function handleError(evt) {
 }
 
 
-document.addEventListener('DOMContentLoaded',handleLoad());
+document.addEventListener('DOMContentLoaded',handleLoad);
 
 const dateEl = document.getElementById('date');
 const usdBuyRateEl = document.getElementById('usd-buy-rate');
